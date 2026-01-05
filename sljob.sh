@@ -16,5 +16,5 @@ conda activate venv
 echo "Starting SL LEARNING..."
 # Run command
 srun --exclusive -n1 \
-python -u main.py \
+python -u sl-dgl.py \
 echo "SL LEARNING COMPLETE"
